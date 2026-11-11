@@ -9,6 +9,11 @@ targets:
     platform: iOS
     sources:
       - Sources
+    info:
+      properties:
+        NSLocalNetworkUsageDescription: CastRemote uses your local network to discover compatible Android TVs.
+        NSBonjourServices:
+          - _androidtvremote2._tcp
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.majedo67.castremote
@@ -16,6 +21,5 @@ targets:
         SWIFT_VERSION: "5.0"
         TARGETED_DEVICE_FAMILY: "1"
         INFOPLIST_KEY_CFBundleDisplayName: CastRemote
-        INFOPLIST_KEY_NSLocalNetworkUsageDescription: CastRemote uses your local network to look for compatible TVs.
         INFOPLIST_KEY_UIUserInterfaceStyle: Dark
         GENERATE_INFOPLIST_FILE: YES
