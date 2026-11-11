@@ -1,0 +1,13 @@
+# Gradle
+.gradle/
+**/build/
+
+# Xcode
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.ipa
+*.app/
+
+# macOS
+.DS_Store
