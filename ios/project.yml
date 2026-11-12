@@ -8,8 +8,8 @@ targets:
     type: application
     platform: iOS
     sources:
-      - path: Sources
-      - path: Assets.xcassets
+      - Sources
+      - Assets.xcassets
     info:
       properties:
         NSLocalNetworkUsageDescription: CastRemote uses your local network to discover compatible Android TVs.
